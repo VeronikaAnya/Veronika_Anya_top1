@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        
+        int x = 10;
+        String students = "Anya and Veronika";
+        System.out.println("x=" + x + "  students: " + students);
+        
+        Scanner input = new Scanner(System.in);
+        String s = input.nextLine();
+        System.out.println(s);
+     }
+}
